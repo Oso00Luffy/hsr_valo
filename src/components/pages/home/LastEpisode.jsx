@@ -21,7 +21,7 @@ const LastEpisode = () => (
         <button className="btn">
           <span className="btn__inner">
             <span className="btn__slide"></span>
-            <span className="btn__content text-secondary">ACT-III Overview</span>
+            <span className="btn__content text-secondary">استعرض بيلداتنا</span>
           </span>
         </button>
       </div>
