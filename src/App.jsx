@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Agents from "./components/pages/Agents";
 import Agent from "./components/pages/Agent";
 import Maps from "./components/pages/Maps";
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   
@@ -26,7 +27,9 @@ const App = () => {
         <CTA />
         <Footer />
       </div>
+      <Analytics />
     </BrowserRouter>
+    
   );
 };
 

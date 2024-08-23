@@ -4,6 +4,7 @@ import { close, valorantlogo, menu, riotlogo } from "../../assets";
 import { navLinks } from "../../constants";
 import styles from "../../style";
 import { Link } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react"
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
