@@ -17,7 +17,7 @@ const Hero = () => (
         <div>
           <img
             src={valoranttext}
-            alt="valorant"
+            alt="Honkai: Star Rail"
             className="sm:h-[100px] h-[50px]"
           />
         </div>
