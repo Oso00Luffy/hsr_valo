@@ -12,10 +12,10 @@ const LastEpisode = () => (
       <div className="relative my-10 sm:ml-4 w-full py-4">
         <div className="my-14">
           <h6 className="font-bold text-[20px] text-left text-secondary tracking-[6px]">
-            تبتغي أن تصل شخصيتك إلى أوج قوتها أليس كذلك؟
+            Character Builds
           </h6>
           <h1 className="font-bold sm:text-[80px] text-[44px] text-secondary">
-            !!تصفّح ما لدينا للوصول إلى هذا الهدف
+          !اختر من تريد وابدأ
           </h1>
         </div>
         <button className="btn">
