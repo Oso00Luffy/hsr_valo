@@ -13,16 +13,14 @@ const Maps = () => (
             <div className="relative m-width-[25%]">
               <h1 className="pt-8 relative">
                 <div className="relative font-bold md:text-[80px] text-[44px] text-secondary text-black leading-[4rem] md:my-10">
-                  YOUR MAPS
+                  الخرائط
                 </div>
               </h1>
               <h5 className="font-semibold text-secondary mb-8 text-black">
-                FIGHT AROUND THE WORLD.
+                .رحلتك بين الكواكب
               </h5>
               <span className="text-shadow">
-                Each map is a playground to showcase your creative thinking.
-                Purpose-built for team strategies, spectacular plays, and clutch
-                moments. Make the play others will imitate for years to come.
+              .مناطق في عالم هونكاي ستار ريل, والتي تحتوي على العديد من الكواكب, الأنظمة النجمية, المجرّات والكثير من الاستكشافات
               </span>
               <div className=" md:flex-start flex md:justify-start justify-center">
                 <Link to="/maps">
