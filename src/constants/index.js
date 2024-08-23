@@ -1,4 +1,5 @@
 import { facebook, instagram, linkedin, twitter } from "../assets";
+import { Analytics } from "@vercel/analytics/react"
 
 export const navLinks = [
   {
