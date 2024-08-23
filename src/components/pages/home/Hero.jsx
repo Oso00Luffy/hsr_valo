@@ -35,7 +35,7 @@ const Hero = () => (
       className="absolute z-[-1] w-auto min-w-full min-h-full max-w-none"
     >
       <source
-        src="https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt714eaee50b90fc27/62cc7dcc6a8fb133b0ff7e55/VALORANT_ANNO22_SHATTERED_16x9_27s.mp4"
+        src="https://rr4---sn-0opoxu-9gve.googlevideo.com/videoplayback?expire=1724412542&ei=Hh7IZpW_I9qrybgP-NC34Qc&ip=2806%3A103e%3A27%3A7e10%3Aac22%3A30c5%3Ac897%3A1ac&id=o-AES29FKddQT6Ki61lV1vY6SD9P9mJAbvHp9LKxNw3vVL&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=Vm&mm=31%2C29&mn=sn-0opoxu-9gve%2Csn-9gv7zn7e&ms=au%2Crdu&mv=m&mvi=4&pcm2cms=yes&pl=48&initcwndbps=1032500&bui=AQmm2eyeVZ0OKvorCsUoiRmpruu8XEdo2Kz7hncv-wPnsGO2ZoHziB8SptOLormWgQHhTmKCH5uDz5E2&spc=Mv1m9uk_IYJDIzXGalI-1Uv1nS59qFQslvdCZKt9mBt45vd3ZXYQXMM&vprv=1&svpuc=1&mime=video%2Fmp4&ns=26BRYl11V2KpvijkhSFjInUQ&rqh=1&gir=yes&clen=7869706&ratebypass=yes&dur=96.873&lmt=1724195598227613&mt=1724390458&fvip=3&c=WEB_CREATOR&sefc=1&txp=5538434&n=hlNugl93_JuTSQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhAPfNfgsZtTRZDxfACTDwG7zrceyPcye5LPu3apAewbzaAiA0Orpdg0jkS8l3snCR9g0j0h2nSJ0V_GcRagX7QOnf-g%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Cinitcwndbps&lsig=AGtxev0wRgIhAKceBH1DFZooJeoRaeZlNoVICeUNChymiZEqih7N9ZRpAiEA7P2H4y54v5ATXEk0UKP6YrhTx_qaptNsjS8EGqDp_k8%3D&title=Honkai%20Star%20Rail%20x%20Fate%20Stay%20Night%20-%20Official%20Collab%20Reveal%20Trailer%20%7C%20gamescom%202024"
         type="video/mp4"
       />
       Your browser does not support the video tag.
