@@ -18,7 +18,6 @@ const Hero = () => (
           <img
             src="https://cdn2.steamgriddb.com/logo_thumb/804bfd285116c91c935176b2b199894d.png"
             alt="Honkai: Star Rail"
-            className="sm:h-[100px] h-[50px]"
           />
         </div>
       </div>
