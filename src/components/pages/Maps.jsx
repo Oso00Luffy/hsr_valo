@@ -48,7 +48,7 @@ const Maps = () => {
               {maps[mapIndex].displayName}
             </h2>
             <p className={`${styles.paragraph} max-w-[470px] mt-5 text-shadow`}>
-              يتميز الكون بقصة غنية وبيئات متنوعة، مع عدة كواكب يمكن للاعبين استكشافها. كل كوكب له ثقافته وتاريخه وتحدياته الفريدة. إليك نظرة على بعض الكواكب الرئيسية في اللعبة
+              {maps[mapIndex].description}
             </p>
             <div className="dots flex">
               <ul className="flex py-4 my-2">
