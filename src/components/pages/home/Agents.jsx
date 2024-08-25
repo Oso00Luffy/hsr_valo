@@ -19,10 +19,7 @@ const Agents = () => (
                 سلاحك الأعظم هو إبداعك
               </h5>
               <span className="text-white">
-                More than guns and bullets, you’ll choose an Agent armed with
-                adaptive, swift, and lethal abilities that create opportunities
-                to let your gunplay shine. No two Agents play alike, just as no
-                two highlight reels will look the same.
+              ستقوم بتجميع فريق من المستكشفين مجهزين بقدرات تكيفية وسريعة وقوية تقلب موازين المعركة لصالحك. لا يوجد مستكشفان متماثلان، كما أن نتائج المعارك لن تكون متشابهة أبدًا
               </span>
               <div className=" md:flex-start flex md:justify-start justify-center">
                 <Link to="/agents">
