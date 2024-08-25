@@ -18,14 +18,14 @@ const LastEpisode = () => (
           اختر من تريد و اسطع بين النجوم
           </h1>
         </div>
-        <a href="/agents">
+        <Link to="/agents">
   <button className="btn">
     <span className="btn__inner">
       <span className="btn__slide"></span>
       <span className="btn__content text-secondary">بناء الشخصيات</span>
     </span>
   </button>
-</a>
+</Link>
       </div>
     </div>
     <img
