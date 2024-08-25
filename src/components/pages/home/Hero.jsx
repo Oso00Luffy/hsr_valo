@@ -14,13 +14,6 @@ const Hero = () => (
         <h6 className="text-white font-semibold mt-4 text-center sm:mb-10">
         Amidst a rising galaxy of stars, her unguarded smile dissolves into a bloom of innocence, akin to the layered twilight hues adrift in the sky.
         </h6>
-        <div>
-          <img
-            src="https://cdn2.steamgriddb.com/logo_thumb/804bfd285116c91c935176b2b199894d.png"
-            alt="Honkai: Star Rail"
-            className="sm:h-[100px] h-[50px]"
-          />
-        </div>
       </div>
       <a
         href="https://t.me/HonkaiStarRailAR"
