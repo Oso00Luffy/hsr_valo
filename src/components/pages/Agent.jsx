@@ -3,10 +3,10 @@ import { useParams, Link } from "react-router-dom";
 import styles, { layout } from "../../style";
 
 // Import local images
-import agent1Portrait from "../../assets/agent1-portrait.jpg";
-import agent2Portrait from "../../assets/agent2-portrait.jpg";
-import ability1Icon from "../../assets/ability1-icon.jpg";
-import ability2Icon from "../../assets/ability2-icon.jpg";
+import agent1Portrait from "../../assets/moze.png"; //portrait
+import agent2Portrait from "../../assets/moze.png"; //portrait
+import ability1Icon from "../../assets/moze.png"; //ability icon
+import ability2Icon from "../../assets/moze.png"; //ability icon
 
 // Define the agents data
 const agentsData = [
