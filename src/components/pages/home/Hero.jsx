@@ -36,7 +36,7 @@ const Hero = () => (
       className="absolute z-[-1] w-auto min-w-full min-h-full max-w-none"
     >
       <source
-        src="https://www.youtube.com/watch?v=huTDtxqzKgE"
+        src="src/components/video/hsrtrailer.mp4"
         type="video/mp4"
       />
       Your browser does not support the video tag.
