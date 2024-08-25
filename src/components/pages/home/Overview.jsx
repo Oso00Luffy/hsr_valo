@@ -20,14 +20,13 @@ const Overview = () => (
                   .تعال وشاركنا في قناتنا الخاصة لتتشارك آخر أحداث هونكاي ستار ريل, بالإضافة إلى العديد من الفعاليات والأمور المسلّية
                 </span>
                 <div className=" md:flex-start flex md:justify-start justify-center">
-                  <button className="btn mt-16">
+                  <a href="https://t.me/HonkaiStarRailAR" className="btn mt-16"> </a>
                     <span className="btn__inner">
                       <span className="btn__slide"></span>
                       <span className="btn__content text-secondary">
-                        LEARN THE GAME
+                        ادخل الآن
                       </span>
                     </span>
-                  </button>
                 </div>
               </div>
             </div>
