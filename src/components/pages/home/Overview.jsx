@@ -7,22 +7,17 @@ const Overview = () => (
         <div className="relative">
           <h1 className="pt-8 relative">
             <div className="relative md:px-16 md:py-4 p-0 m-0  font-bold md:text-[80px] text-[44px] text-black md:pb-10">
-              WE ARE VALORANT
+              عزز إمكانياتك وانضم لنا
             </div>
           </h1>
           <div className={`relative flex md:flex-row flex-col md:py-8 py-0`}>
             <div className={`${layout.sectionInfo} relative`}>
               <div className="relative md:ml-[16%] m-width-[25%] ml-0 md:mb-8 md:py-0 py-4 md:px-16">
                 <h5 className="font-semibold text-black mb-8">
-                  DEFY THE LIMITS
+                  تخطّى التوقعات
                 </h5>
                 <span className="text-shadow">
-                  Blend your style and experience on a global, competitive
-                  stage. You have 13 rounds to attack and defend your side using
-                  sharp gunplay and tactical abilities. And, with one life
-                  per-round, you'll need to think faster than your opponent if
-                  you want to survive. Take on foes across Competitive and
-                  Unranked modes as well as Deathmatch and Spike Rush.
+                  .تعال وشاركنا في قناتنا الخاصة لتتشارك آخر أحداث هونكاي ستار ريل, بالإضافة إلى العديد من الفعاليات والأمور المسلّية
                 </span>
                 <div className=" md:flex-start flex md:justify-start justify-center">
                   <button className="btn mt-16">
