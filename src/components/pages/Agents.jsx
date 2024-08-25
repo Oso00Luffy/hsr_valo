@@ -6,7 +6,7 @@ import React, { useState } from "react";
 const agentsData = [
   {
     uuid: "agent1",
-    displayName: "Agent One",
+    displayName: "Moza",
   },
   {
     uuid: "agent2",

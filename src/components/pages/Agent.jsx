@@ -12,7 +12,7 @@ const agentsData = [
       displayIcon: "https://i.imgur.com/FtPG45M.jpeg",
     },
     description: "Description for Agent One.",
-    fullPortrait: "https://example.com/agent-one-portrait.jpg",
+    fullPortrait: "https://i.imgur.com/FtPG45M.jpeg",
     abilities: [
       {
         slot: "ability1",
