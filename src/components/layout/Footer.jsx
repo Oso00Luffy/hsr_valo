@@ -28,14 +28,13 @@ const Footer = () => (
     </div>
     <div className={`py-4 ${styles.flexCenter}`}>
       <a href="#">
-        <img src={riotlogogray} alt="riot" />
+        <img src="https://cdn2.steamgriddb.com/logo_thumb/804bfd285116c91c935176b2b199894d.png" alt="riot" />
       </a>
     </div>
     <div className="mx-auto text-center max-w-[640px]">
       <p className="mx-auto text-[#7e7e7e] text-[13px]">
-        © 2022 Riot Games, Inc. Riot Games, VALORANT, and any associated logos
-        are trademarks, service marks, and/or registered trademarks of Riot
-        Games, Inc.
+        © 2024 HSR_IN_ARABIC, Inc. Raiden Meno, Gacha Games, any associated logos
+        are trademarks, service marks, and/or registered trademarks of these games.
       </p>
     </div>
   </div>
