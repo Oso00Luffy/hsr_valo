@@ -1,32 +1,70 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import styles, { layout } from "../../style";
-import { loadAgents } from "../../constants/scripts";
+
+// Define the agents data
+const agentsData = [
+  {
+    uuid: "agent1",
+    displayName: "Moza",
+    role: {
+      displayName: "Moza",
+      displayIcon: "https://i.imgur.com/FtPG45M.jpeg",
+    },
+    description: "Description for Agent One.",
+    fullPortrait: "https://example.com/agent-one-portrait.jpg",
+    abilities: [
+      {
+        slot: "ability1",
+        displayName: "Ability One",
+        displayIcon: "https://example.com/ability-one-icon.jpg",
+        description: "Description for Ability One.",
+      },
+      // Add more abilities as needed
+    ],
+  },
+  {
+    uuid: "agent2",
+    displayName: "Agent Two",
+    role: {
+      displayName: "Role Two",
+      displayIcon: "https://example.com/role-two-icon.jpg",
+    },
+    description: "Description for Agent Two.",
+    fullPortrait: "https://example.com/agent-two-portrait.jpg",
+    abilities: [
+      {
+        slot: "ability2",
+        displayName: "Ability Two",
+        displayIcon: "https://example.com/ability-two-icon.jpg",
+        description: "Description for Ability Two.",
+      },
+      // Add more abilities as needed
+    ],
+  },
+  // Add more agents as needed
+];
 
 const Agent = () => {
   let { agentName } = useParams();
   const [agent, setAgent] = useState({});
-  const [agents, setAgents] = useState([]);
   const [abilitiesIdx, setAbilitiesIdx] = useState(0);
 
-  useEffect(() => {
-    loadAgents().then((response) => {
-      setAgents(response.data);
-      setAgent(
-        response.data.filter((agent) => agent.displayName === agentName)[0]
-      );
-    });
+  // Find the selected agent from the hardcoded data
+  useState(() => {
+    const selectedAgent = agentsData.find(agent => agent.displayName === agentName);
+    setAgent(selectedAgent || {});
   }, [agentName]);
 
-  if (!agent.role) return;
+  if (!agent.role) return null;
 
   return (
     <>
-      <section className="relative flex items-center justify-center h-screen  sm:h-[85vh] h-[60vh] w-[100vw] sm:px-[5%] px-0">
+      <section className="relative flex items-center justify-center h-screen sm:h-[85vh] h-[60vh] w-[100vw] sm:px-[5%] px-0">
         <div className={`relative flex items-end justify-center flex-col w-full h-full`}>
           <div className={`relative flex md:flex-row-reverse flex-col-reverse justify-end items-center`}>
             <div className={`${layout.sectionInfo} relative md:mr-16 max-w-[16rem]`}>
-              <div className="relative m-width-[25%] pb-10 border-b border-gray-500  sm:block hidden">
+              <div className="relative m-width-[25%] pb-10 border-b border-gray-500 sm:block hidden">
                 <h5 className="font-semiold text-secondary">// ROLE</h5>
                 <div className="flex mb-6">
                   <h2 className="font-extrabold text-secondary text-[3rem] uppercase">
@@ -40,39 +78,33 @@ const Agent = () => {
                     />
                   </div>
                 </div>
-                <h5 className="font-semibold text-secondary mb-8">
-                  // BIOGRAPHY
-                </h5>
+                <h5 className="font-semibold text-secondary mb-8">// BIOGRAPHY</h5>
                 <span className="text-white">{agent.description}</span>
               </div>
             </div>
           </div>
           <div className="hidden sm:block absolute left-0 top-0 overflow-x-hidden overflow-y-scroll h-[100%] no-scrollbar w-auto px-2 w-[56vw] cursor-scroll">
             <ul className="pl-10 cursor-pointer">
-              {agents &&
-                agents.map((agent, index) => (
-                  <li
-                    key={agent.uuid}
-                    className="relative"
-                  >
-                    <Link to={`/agent/${agent.displayName}`}>
-                      <span
-                        className={`font-bold text-secondary absolute left-[-1.5rem] top-[0.5rem] ${
-                          agent.displayName === agentName ? "text-primary" : ""
-                        }`}
-                      >
-                        {index + 1}
-                      </span>
-                      <h2
-                        className={`relative font-bold text-secondary mb-8 sm:text-[6rem] text-[3rem] leading-none my-0 leading-[0.86] hover:pl-[1rem]  transition-all ease-in duration-300 uppercase ${
-                          agent.displayName === agentName ? "text-primary" : ""
-                        }`}
-                      >
-                        {agent.displayName}
-                      </h2>
-                    </Link>
-                  </li>
-                ))}
+              {agentsData.map((agent, index) => (
+                <li key={agent.uuid} className="relative">
+                  <Link to={`/agent/${agent.displayName}`}>
+                    <span
+                      className={`font-bold text-secondary absolute left-[-1.5rem] top-[0.5rem] ${
+                        agent.displayName === agentName ? "text-primary" : ""
+                      }`}
+                    >
+                      {index + 1}
+                    </span>
+                    <h2
+                      className={`relative font-bold text-secondary mb-8 sm:text-[6rem] text-[3rem] leading-none my-0 leading-[0.86] hover:pl-[1rem] transition-all ease-in duration-300 uppercase ${
+                        agent.displayName === agentName ? "text-primary" : ""
+                      }`}
+                    >
+                      {agent.displayName}
+                    </h2>
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
@@ -118,12 +150,12 @@ const Agent = () => {
           </h2>
           <ul className="relative flex py-4 gap-6 mx-2">
             {agent.abilities.map((ability, index) => (
-              <li key={ability.slot} onClick={(e) => setAbilitiesIdx(index)}>
-                <div className={`relative h-[72px] w-[72px] border p-2 cursor-pointer ${index===abilitiesIdx ? "bg-[#000]":"bg-secondary border-[#fff]-500 hover:bg-[#666]"}`}>
+              <li key={ability.slot} onClick={() => setAbilitiesIdx(index)}>
+                <div className={`relative h-[72px] w-[72px] border p-2 cursor-pointer ${index === abilitiesIdx ? "bg-[#000]" : "bg-secondary border-[#fff]-500 hover:bg-[#666]"}`}>
                   <img
                     src={ability.displayIcon}
                     alt={ability.slot}
-                    className="w-[100%] w-[100%]"
+                    className="w-[100%]"
                   />
                 </div>
               </li>
