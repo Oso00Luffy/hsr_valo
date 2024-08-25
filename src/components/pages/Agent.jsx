@@ -12,7 +12,7 @@ import ability2Icon from "../../assets/yukong_skills.png"; //ability icon
 const agentsData = [
   {
     uuid: "agent1",
-    displayName: "موز",
+    displayName: "Moze",
     role: {
       displayName: "موز",
       displayIcon: agent1Portrait,
