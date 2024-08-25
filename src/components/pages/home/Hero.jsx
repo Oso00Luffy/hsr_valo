@@ -22,12 +22,17 @@ const Hero = () => (
           />
         </div>
       </div>
-      <button className="btn">
+      <a
+        href="https://t.me/HonkaiStarRailAR"
+        className="btn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <span className="btn__inner">
           <span className="btn__slide"></span>
           <span className="btn__content">أدخل قناتنا الآن</span>
         </span>
-      </button>
+      </a>
     </div>
     <video
       autoPlay
