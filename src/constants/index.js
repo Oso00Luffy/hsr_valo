@@ -4,27 +4,27 @@ import { Analytics } from "@vercel/analytics/react"
 export const navLinks = [
   {
     id: "/",
-    title: "Home",
+    title: "الواجهة",
   },
   {
     id: "/#news",
-    title: "News",
+    title: "أخبار",
   },
   {
     id: "/#overview",
-    title: "Overview",
+    title: "البيلدات",
   },
   {
     id: "/#about",
-    title: "About",
+    title: "من نحن",
   },
   {
     id: "/agents",
-    title: "Agents",
+    title: "الشخصيات",
   },
   {
     id: "/maps",
-    title: "Maps",
+    title: "الخرائط",
   },
 ];
 
