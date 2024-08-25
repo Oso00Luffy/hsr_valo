@@ -43,8 +43,8 @@ const Agents = () => (
               className={`flex ${styles.flexCenter} relative w-[100%] h-[100%]`}
             >
               <img
-                 src="https://imgur.com/a/mfY8n9O"
-                alt="agents"
+                 src="https://i.imgur.com/WpK3RIW.png"
+                alt="hsr"
                 className="w-[100%] h-[100%] relative"
               />
             </div>
