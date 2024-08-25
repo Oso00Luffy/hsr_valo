@@ -36,7 +36,7 @@ const Hero = () => (
       className="absolute z-[-1] w-auto min-w-full min-h-full max-w-none"
     >
       <source
-        src="https://drive.google.com/file/d/1h0YrrJsc_iuqwmXv0EFdW3OKYbT2zK1j/preview"
+        src="https://cdn.discordapp.com/attachments/623877027086336010/1277200842256154624/Gamescom_Exhibition_Tales_of_the_Luofu_A_New_Chapter__Honkai_Star_Rail.mp4?ex=66cc4d7a&is=66cafbfa&hm=a299b5b900f24898838396294b34d8f2256741e537b955e21fba205e6d0635b4&"
         type="video/mp4"
       />
       Your browser does not support the video tag.
