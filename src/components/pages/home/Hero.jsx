@@ -12,7 +12,7 @@ const Hero = () => (
     >
       <div className="sm:py-10 py-0 flex items-center justify-between sm:flex-col flex-col-reverse mb-auto">
         <h6 className="text-white font-semibold mt-4 text-center sm:mb-10">
-        Amidst a rising galaxy of stars, her unguarded smile dissolves into a bloom of innocence, akin to the layered twilight hues adrift in the sky.
+        بينما تتصاعد مجرة من النجوم، يتحول ابتسامها البريء إلى زهرة من البراءة، تمامًا كألوان الغسق المتدرجة التي تتناثر في السماء
         </h6>
       </div>
       <a
