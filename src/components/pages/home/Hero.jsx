@@ -36,7 +36,7 @@ const Hero = () => (
       className="absolute z-[-1] w-auto min-w-full min-h-full max-w-none"
     >
       <source
-        src="blob:https://youfiles.herokuapp.com/efcebb86-f6da-4335-9d37-46b693c40708"
+        src="https://drive.google.com/file/d/1h0YrrJsc_iuqwmXv0EFdW3OKYbT2zK1j/preview"
         type="video/mp4"
       />
       Your browser does not support the video tag.
