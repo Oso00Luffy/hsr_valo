@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, twitter } from "../assets";
+import { facebook, instagram, telegram, twitter } from "../assets";
 import { Analytics } from "@vercel/analytics/react"
 
 export const navLinks = [
@@ -56,7 +56,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/hsr.in.arabic1/",
   },
   {
     id: "social-media-2",
@@ -66,11 +66,11 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://x.com/HonkaiSRArabic",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: telegram,
+    link: "https://t.me/HonkaiStarRailAR",
   },
 ];
