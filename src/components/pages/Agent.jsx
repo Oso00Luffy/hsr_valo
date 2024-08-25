@@ -6,7 +6,7 @@ import styles, { layout } from "../../style";
 import agent1Portrait from "../../assets/moze.png"; //portrait
 import agent2Portrait from "../../assets/moze.png"; //portrait
 import ability1Icon from "../../assets/moze.png"; //ability icon
-import ability2Icon from "../../assets/moze.png"; //ability icon
+import ability2Icon from "../../assets/yukong_skills.png"; //ability icon
 
 // Define the agents data
 const agentsData = [
@@ -43,7 +43,9 @@ const agentsData = [
         slot: "ability2",
         displayName: "Ability Two",
         displayIcon: ability2Icon,
-        description: "Description for Ability Two.",
+        description: ` 
+        "Description for Ability Two.",
+        <img src="${ability2Icon}" alt="Ability One Image" style="width: 100px; height: auto;" /> `,
       },
       // Add more abilities as needed
     ],
