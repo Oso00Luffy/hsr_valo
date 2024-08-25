@@ -40,7 +40,7 @@ const Maps = () => (
             className={`flex ${styles.flexCenter} relative md:w-[60%] w-[100%] h-[100%] translate-x-[100px] objext-fit`}
           >
             <img
-              src="https://i.imgur.com/R1XEUZ6.png"
+              src="https://i.imgur.com/fdtgOrX.png"
               alt="agents"
               className="w-[100%] h-[100%] relative z-[-1]"
             />
