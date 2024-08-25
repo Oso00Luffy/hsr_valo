@@ -7,7 +7,7 @@ const CTA = () =>(
           <a href="https://hsr.hoyoverse.com/en-us/">حمل اللعبة</a>
         </li>
         <li className="font-poppins font-semibold transition-all ease-in duration-300 relative cursor-pointer text-center text-[13px] hover:bg-[gray]/40 px-4 py-2 rounded-[8px] uppercase mr-6 text-white">
-          <a href="https://hsr.hoyoverse.com/en-us/">حمل اللانشر الخاص بها</a>
+          <a href="https://hsr.hoyoverse.com/en-us/">حمل اللانشر الخاص في ستار ريل</a>
         </li>
       </ul>
     </div>

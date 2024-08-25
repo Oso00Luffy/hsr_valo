@@ -19,8 +19,8 @@ const Navbar = () => {
             <Link to="/">
               <div className={`${styles.flexCenter} h-[80px] sm:ml-4 ml-10`}>
                 <img
-                  src={valorantlogo}
-                  alt="valorant"
+                  src="https://sm.ign.com/ign_gr/cover/h/honkai-sta/honkai-star-rail_1z91.jpg"
+                  alt="honkai"
                   className="relative w-[38px] h-[26px]"
                 />
               </div>
