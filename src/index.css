@@ -33,7 +33,11 @@
   background-clip: text;
   text-fill-color: transparent;
 }
-
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .bg-blue-gradient {
   background: linear-gradient(157.81deg,
       #def9fa -43.27%,
