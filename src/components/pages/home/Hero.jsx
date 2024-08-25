@@ -25,7 +25,7 @@ const Hero = () => (
       <button className="btn">
         <span className="btn__inner">
           <span className="btn__slide"></span>
-          <span className="btn__content">PLAY NOW</span>
+          <span className="btn__content">أدخل قناتنا الآن</span>
         </span>
       </button>
     </div>

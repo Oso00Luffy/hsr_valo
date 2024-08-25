@@ -12,11 +12,11 @@ const Agents = () => (
             <div className="relative m-width-[25%]">
               <h1 className="pt-8 relative">
                 <div className="relative font-bold md:text-[80px] text-[44px] text-secondary  leading-[4rem] md:my-10">
-                  YOUR AGENTS
+                  الشخصيات
                 </div>
               </h1>
               <h5 className="font-semibold text-secondary mb-8">
-                CREATIVITY IS YOUR GREATEST WEAPON.
+                سلاحك الأعظم هو إبداعك
               </h5>
               <span className="text-white">
                 More than guns and bullets, you’ll choose an Agent armed with
@@ -30,7 +30,7 @@ const Agents = () => (
                     <span className="btn__inner">
                       <span className="btn__slide"></span>
                       <span className="btn__content text-secondary">
-                        VIEW ALL AGENTS
+                        أظهر جميع الشخصيات
                       </span>
                     </span>
                   </button>
