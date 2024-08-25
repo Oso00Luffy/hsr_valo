@@ -12,9 +12,9 @@ import ability2Icon from "../../assets/moze.png"; //ability icon
 const agentsData = [
   {
     uuid: "agent1",
-    displayName: "Moza",
+    displayName: "Moze",
     role: {
-      displayName: "Moza",
+      displayName: "Moze",
       displayIcon: ability1Icon,
     },
     description: "Description for Moza.",
