@@ -31,10 +31,10 @@ export const navLinks = [
 export const news = [
   {
     id: "news-1",
-    title: "AGENT COSPLAY GUIDE: HARBOR",
+    title: "فوز لعبة هونكاي ستار ريل بجائزة افضل سرد قصصي ",
     date: "25/8/24",
     category: "المجتمع",
-    imglink: "https://cdn.discordapp.com/attachments/623877027086336010/1277223256385912883/photo_2024-08-25_14-09-01.jpg?ex=66cc6259&is=66cb10d9&hm=2767225457768f234fa7b259e9818a7013733e43d81bfc44445203571287dd89&"
+    imglink: "https://cdn.discordapp.com/attachments/623877027086336010/1277226682171916298/photo_2024-08-25_14-22-35.jpg?ex=66cc658a&is=66cb140a&hm=f3973184be3501c6fc4f62451ea8617f29ed48f4a0323bb31f9c41aebe95d0a8&"
   },
   {
     id: "news-2",
