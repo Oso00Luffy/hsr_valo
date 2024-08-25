@@ -15,15 +15,17 @@ const LastEpisode = () => (
             Character Builds
           </h6>
           <h1 className="font-bold sm:text-[80px] text-[44px] text-secondary">
-          اختر من تريد واسطع بين النجوم
+          اختر من تريد و اسطع بين النجوم
           </h1>
         </div>
-        <button className="btn">
-          <span className="btn__inner">
-            <span className="btn__slide"></span>
-            <span className="btn__content text-secondary">بناء الشخصيات</span>
-          </span>
-        </button>
+        <a href="/agents">
+  <button className="btn">
+    <span className="btn__inner">
+      <span className="btn__slide"></span>
+      <span className="btn__content text-secondary">بناء الشخصيات</span>
+    </span>
+  </button>
+</a>
       </div>
     </div>
     <img

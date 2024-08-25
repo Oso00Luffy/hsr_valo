@@ -34,8 +34,9 @@ export const news = [
     title: "فوز لعبة هونكاي ستار ريل بجائزة افضل سرد قصصي ",
     date: "25/8/24",
     category: "المجتمع",
-    imglink: "https://cdn.discordapp.com/attachments/623877027086336010/1277226682171916298/photo_2024-08-25_14-22-35.jpg?ex=66cc658a&is=66cb140a&hm=f3973184be3501c6fc4f62451ea8617f29ed48f4a0323bb31f9c41aebe95d0a8&"
-  },
+    imglink: "https://cdn.discordapp.com/attachments/623877027086336010/1277226682171916298/photo_2024-08-25_14-22-35.jpg?ex=66cc658a&is=66cb140a&hm=f3973184be3501c6fc4f62451ea8617f29ed48f4a0323bb31f9c41aebe95d0a8&",
+    style: { fontSize: "20px", fontWeight: "bold" },
+},
   {
     id: "news-2",
     title: "لايف ريآكشن - كرستيانو و جورجينا: ستار ريل افضل لعبة",
