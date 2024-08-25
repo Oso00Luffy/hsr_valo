@@ -40,7 +40,7 @@ const Maps = () => (
             className={`flex ${styles.flexCenter} relative md:w-[60%] w-[100%] h-[100%] translate-x-[100px] objext-fit`}
           >
             <img
-              src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt02c83424f7b41a97/6243813d8850ee0e8ea0ae56/maps-03ebbf2c074f13a65af1dba0c80f767e.png"
+              src="https://i.imgur.com/WyI7yn3.png"
               alt="agents"
               className="w-[100%] h-[100%] relative z-[-1]"
             />
