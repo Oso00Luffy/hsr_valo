@@ -43,7 +43,7 @@ const Agents = () => (
               className={`flex ${styles.flexCenter} relative w-[100%] h-[100%]`}
             >
               <img
-                src=".\src\components\video\hsrgroup.png"
+                 src="./components/video/hsrgroup.png"
                 alt="agents"
                 className="w-[100%] h-[100%] relative"
               />
