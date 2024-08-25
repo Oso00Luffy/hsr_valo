@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styles, { layout } from "../../style";
 import agent1Image from "../../assets/moze.png"; // Import the image
-import agent2Image from "../../assets/moze.jpg"; // Import more images as needed
+import agent2Image from "../../assets/moze.png"; // Import more images as needed
 
 const agentsData = [
   {
