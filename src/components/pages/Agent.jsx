@@ -1,6 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import styles, { layout } from "../../style";
+
+// Import local images
+import agent1Portrait from "../../assets/agent1-portrait.jpg";
+import agent2Portrait from "../../assets/agent2-portrait.jpg";
+import ability1Icon from "../../assets/ability1-icon.jpg";
+import ability2Icon from "../../assets/ability2-icon.jpg";
 
 // Define the agents data
 const agentsData = [
@@ -9,15 +15,15 @@ const agentsData = [
     displayName: "Moza",
     role: {
       displayName: "Moza",
-      displayIcon: "https://i.imgur.com/FtPG45M.jpeg",
+      displayIcon: ability1Icon,
     },
-    description: "Description for Agent One.",
-    fullPortrait: "https://i.imgur.com/FtPG45M.jpeg",
+    description: "Description for Moza.",
+    fullPortrait: agent1Portrait,
     abilities: [
       {
         slot: "ability1",
         displayName: "Ability One",
-        displayIcon: "https://example.com/ability-one-icon.jpg",
+        displayIcon: ability1Icon,
         description: "Description for Ability One.",
       },
       // Add more abilities as needed
@@ -28,15 +34,15 @@ const agentsData = [
     displayName: "Agent Two",
     role: {
       displayName: "Role Two",
-      displayIcon: "https://example.com/role-two-icon.jpg",
+      displayIcon: ability2Icon,
     },
     description: "Description for Agent Two.",
-    fullPortrait: "https://example.com/agent-two-portrait.jpg",
+    fullPortrait: agent2Portrait,
     abilities: [
       {
         slot: "ability2",
         displayName: "Ability Two",
-        displayIcon: "https://example.com/ability-two-icon.jpg",
+        displayIcon: ability2Icon,
         description: "Description for Ability Two.",
       },
       // Add more abilities as needed
@@ -50,8 +56,7 @@ const Agent = () => {
   const [agent, setAgent] = useState({});
   const [abilitiesIdx, setAbilitiesIdx] = useState(0);
 
-  // Find the selected agent from the hardcoded data
-  useState(() => {
+  useEffect(() => {
     const selectedAgent = agentsData.find(agent => agent.displayName === agentName);
     setAgent(selectedAgent || {});
   }, [agentName]);
@@ -124,7 +129,7 @@ const Agent = () => {
           src={agent.fullPortrait}
           alt="agents"
           className="absolute w-auto sm:h-[110vh] h-[80vh] object-cover bottom-[-6rem] z-[-1]"
-        ></img>
+        />
       </section>
       <div className={`relative ${styles.paddingX} my-10 pt-[4rem]`}>
         <div className="relative pb-10 border-b border-[#000]-500 sm:hidden visible">

@@ -1,22 +1,25 @@
+import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styles, { layout } from "../../style";
-import React, { useState } from "react";
+import agent1Image from "../../assets/moze.png"; // Import the image
+import agent2Image from "../../assets/agent2.jpg"; // Import more images as needed
 
-// Define the agents data
 const agentsData = [
   {
     uuid: "agent1",
-    displayName: "Moza",
+    displayName: "Moze",
+    image: agent1Image, // Add the imported image to the agent data
   },
   {
     uuid: "agent2",
     displayName: "Agent Two",
+    image: agent2Image, // Add more images
   },
-  // Add more agents as needed
+  // Add more agents with their images
 ];
 
 const Agents = () => {
-  const [agents] = useState(agentsData);
+  const [agents] = React.useState(agentsData);
   const navigate = useNavigate();
 
   return (
@@ -44,6 +47,11 @@ const Agents = () => {
                     <h2 className="relative font-bold text-secondary mb-8 sm:text-[6rem] text-[3rem] leading-none my-0 leading-[0.86] hover:pl-[1rem] transition-all ease-in duration-300 uppercase">
                       {agent.displayName}
                     </h2>
+                    <img
+                      src={agent.image} // Use the imported image
+                      alt={agent.displayName}
+                      className="w-[72px] h-[72px] object-cover"
+                    />
                   </Link>
                 </li>
               ))}
