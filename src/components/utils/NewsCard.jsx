@@ -1,6 +1,6 @@
 import React from "react";
 
-const NewsCard = ({ date, category, title, imglink, style }) => (
+const NewsCard = ({ date, category, title, imglink }) => (
   <div className="news-card">
     <div className="w-[30vw] min-w-[500px] h-auto relative mr-4">
       <img src={imglink} alt="news1" className="w-[100%] h-auto relative" />
