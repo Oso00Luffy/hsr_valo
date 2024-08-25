@@ -44,7 +44,7 @@ const Overview = () => (
                 className="w-[100%] h-[100%] relative"
               >
                 <source
-                  src="https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltefd45731d8f9d9df/6217f2ea910a6c613c73168c/VALORANT_PLAY22_16x9_Target4_v005.mp4"
+                  src="https://cdn.discordapp.com/attachments/623877027086336010/1277202681865437215/555555555.mp4?ex=66cc4f30&is=66cafdb0&hm=6b0bf8480ed47d972f0ed2c0440ac1d30cc9e31e5d9281b3ca03a39843cf60aa&"
                   type="video/mp4"
                 />
               </video>
