@@ -9,6 +9,8 @@ import instagram from "./instagram.svg";
 import telegram from "./telegram.svg";
 import twitter from "./twitter.svg";
 import overviewimg from "./overview.jpg";
+import joinus from "./joinus.mp4";
+import trailer from "./trailer.mp4";
 
 export {
   valorantlogo,
@@ -22,4 +24,6 @@ export {
   telegram,
   twitter,
   overviewimg,
+  joinus,
+  trailer,
 };

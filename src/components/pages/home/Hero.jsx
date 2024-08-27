@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../../style";
-import { valoranttext } from "../../../assets/index";
+import { trailer, valoranttext } from "../../../assets/index";
 
 const Hero = () => (
   <section
@@ -34,9 +34,9 @@ const Hero = () => (
       className="absolute z-[-1] w-auto min-w-full min-h-full max-w-none"
     >
       <source
-        src="https://cdn.discordapp.com/attachments/623877027086336010/1277200842256154624/Gamescom_Exhibition_Tales_of_the_Luofu_A_New_Chapter__Honkai_Star_Rail.mp4?ex=66cef07a&is=66cd9efa&hm=edf36cdf2a34d640e267bdd70d0d268580e66048d7960075ba16676a6c73f968&"
+        src="assets/trailer.mp4"
         type="video/mp4"
-      />
+      />  
       Your browser does not support the video tag.
     </video>
   </section>
