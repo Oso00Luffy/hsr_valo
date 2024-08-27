@@ -44,7 +44,7 @@ const Overview = () => (
                 className="w-[100%] h-[100%] relative"
               >
                 <source
-                  src="https://cdn.discordapp.com/attachments/623877027086336010/1277202681865437215/555555555.mp4?ex=66cc4f30&is=66cafdb0&hm=6b0bf8480ed47d972f0ed2c0440ac1d30cc9e31e5d9281b3ca03a39843cf60aa&"
+                  src="https://cdn.discordapp.com/attachments/623877027086336010/1277202681865437215/555555555.mp4?ex=66cef230&is=66cda0b0&hm=d0d14097d27f3d6d09ef09c61f537ead3641affd08e20dc6105305acc1ca523d&"
                   type="video/mp4"
                 />
               </video>

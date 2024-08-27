@@ -34,22 +34,21 @@ export const news = [
     title: "فوز لعبة هونكاي ستار ريل بجائزة افضل سرد قصصي ",
     date: "25/8/24",
     category: "المجتمع",
-    imglink: "https://cdn.discordapp.com/attachments/623877027086336010/1277226682171916298/photo_2024-08-25_14-22-35.jpg?ex=66cc658a&is=66cb140a&hm=f3973184be3501c6fc4f62451ea8617f29ed48f4a0323bb31f9c41aebe95d0a8&",
-    style: { fontSize: "20px", fontWeight: "bold" },
-},
+    imglink: "https://cdn.discordapp.com/attachments/623877027086336010/1277223628701696052/photo_2024-08-25_14-10-32.jpg?ex=66cf05b2&is=66cdb432&hm=ca33bab05b3429fee24f95053ce7436773d94d620dcac5e780f02cf22a39835c&"
+  },
   {
     id: "news-2",
     title: "لايف ريآكشن - كرستيانو و جورجينا: ستار ريل افضل لعبة",
     date: "25/8/24",
     category: "الإعلانات",
-    imglink: "https://cdn.discordapp.com/attachments/623877027086336010/1277223628701696052/photo_2024-08-25_14-10-32.jpg?ex=66cc62b2&is=66cb1132&hm=27e59c3d13f2597d52831796959f2c34d14ea947f08cce9f3d97caba68024bf3&"
+    imglink: "https://cdn.discordapp.com/attachments/623877027086336010/1277224064016060437/photo_2024-08-25_14-12-10.jpg?ex=66cf061a&is=66cdb49a&hm=3a7bdc493a57eb009cdd9f3d176e902eb4a4c4153a9bfb7ae80e1498739398c4&"
   },
   {
     id: "news-3",
     title: "ما هو الجديد في هونكاي ستار ريل",
     date: "25/8/24",
     category: "تحديثات اللعبة",
-    imglink: "https://cdn.discordapp.com/attachments/623877027086336010/1277224064016060437/photo_2024-08-25_14-12-10.jpg?ex=66cc631a&is=66cb119a&hm=4c3c9ced425c0fb20277566cf9f9b47280e24a988b13ff79531f182aa739d0ae&"
+    imglink: "https://cdn.discordapp.com/attachments/623877027086336010/1277226682171916298/photo_2024-08-25_14-22-35.jpg?ex=66cf088a&is=66cdb70a&hm=4af04134b53c780495fd664cc747fff0f9e70998ca0f8dca31e45a0b7889e343&"
   },
 ]
 
