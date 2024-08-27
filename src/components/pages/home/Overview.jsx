@@ -43,10 +43,10 @@ const Overview = () => (
                 muted
                 className="w-[100%] h-[100%] relative"
               >
-<source
-  src="assets/joinus.mp4"
-  type="video/mp4"
-/>
+                <source
+                  src="https://cdn.discordapp.com/attachments/623877027086336010/1277202681865437215/555555555.mp4?ex=66cef230&is=66cda0b0&hm=d0d14097d27f3d6d09ef09c61f537ead3641affd08e20dc6105305acc1ca523d&"
+                  type="video/mp4"
+                />
               </video>
             </div>
           </div>
